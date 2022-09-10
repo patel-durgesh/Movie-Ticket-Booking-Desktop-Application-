@@ -78,7 +78,7 @@ void set_master_admin()
             getch();
             exit(1);
         }
-        user usr={"master_admin","Sachin Kapoor","sca_2001","master_admin","","","9826086245"};
+        user usr={"master_admin","Durgesh Patel","Lets_Play","master_admin","","","7999000025"};
         fwrite(&usr,sizeof(usr),1,fp);
         //printf("\nUsers.bin created and saved");
     }
